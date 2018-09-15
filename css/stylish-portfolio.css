@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    font-family: 'Source Sans Pro';
+    font-family: 'Montserrat', sans-serif;
 }
 
 .btn-xl {
@@ -76,24 +76,35 @@ section {
     height: auto;
     padding-top: 8rem;
     padding-bottom: 8rem;
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.5) 100%), url("../img/SF.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .masthead h1 {
-    font-size: 4rem;
+    font-weight: 700;
+    font-size: 3rem;
     margin: 0;
     padding: 0;
 }
 
-@media (min-width: 992px) {
+.masthead h3 {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+@media (min-width: 768px) {
     .masthead {
         height: 100vh;
     }
     .masthead h1 {
-        font-size: 5.5rem;
+        font-size: 8rem;
+    }
+
+    .masthead h3 {
+        font-size: 2rem;
     }
 }
 
@@ -191,6 +202,10 @@ section {
     background: #343a40;
 }
 
+.lead {
+    font-size: 1.1rem;
+}
+
 .service-icon {
     background-color: #fff;
     color: #1D809F;
@@ -204,7 +219,7 @@ section {
 
 .callout {
     padding: 15rem 0;
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-callout.jpg");
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.3) 100%), url("../img/Blueprint.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -251,8 +266,8 @@ section {
 }
 
 .portfolio-item .caption .caption-content p {
-    font-weight: 300;
-    font-size: 1.2rem;
+    font-weight: 200;
+    font-size: 1rem;
 }
 
 @media (min-width: 992px) {
