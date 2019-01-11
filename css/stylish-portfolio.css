@@ -76,7 +76,7 @@ section {
     height: auto;
     padding-top: 8rem;
     padding-bottom: 8rem;
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.5) 100%), url("../img/SF.jpg");
+    background: url("../img/Berkeley.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
